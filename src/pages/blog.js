@@ -13,7 +13,7 @@ const BlogPage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Buznex – Blog" />
+                <SEO title="ArtWeb – Blog" />
                 <div className="wrapper">
                     <Header />
                     <PageBanner

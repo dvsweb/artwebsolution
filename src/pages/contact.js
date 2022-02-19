@@ -12,7 +12,7 @@ const ContactPage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Buznex – Contact" />
+                <SEO title="ArtWeb – Contact" />
                 <div className="wrapper">
                     <Header />
                     <PageBanner

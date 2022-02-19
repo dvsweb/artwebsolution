@@ -5,7 +5,7 @@ import PageBanner from "../containers/global/page-banner";
 import Footer from "../layouts/footer";
 import Header from "../layouts/header";
 import Layout from "../layouts/index";
-import ServiceData from "../data/service.json";
+import ServiceData from "../data/services.json";
 import ServiceDetailsContainer from "../containers/service/service-details";
 import ScrollToTop from "../components/scroll-to-top";
 import SEO from "../components/seo";
@@ -20,7 +20,7 @@ const ServiceDetails = ({
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Buznex – Service Details" />
+                <SEO title="ArtWeb – Service Details" />
                 <div className="wrapper">
                     <Header />
                     <PageBanner

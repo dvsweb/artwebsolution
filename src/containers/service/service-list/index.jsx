@@ -1,7 +1,7 @@
 import React from "react";
 import SectionTitle from "../../../components/section-title";
 import ServiceBox from "../../../components/service-box";
-import ServiceData from "../../../data/service.json";
+import ServiceData from "../../../data/services.json";
 
 const ServiceListContainer = () => {
     return (

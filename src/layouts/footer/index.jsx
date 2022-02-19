@@ -4,6 +4,7 @@ import Logo from "../../components/logo";
 import SocialIcon from "../../components/social-icon";
 
 const Footer = () => {
+    const year = new Date().getFullYear();
     return (
         <footer className="footer-section">
             <div className="footer-top position-relative">
@@ -91,16 +92,6 @@ const Footer = () => {
                                             }
                                         >
                                             Conditions
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link
-                                            className="footer-link"
-                                            to={
-                                                process.env.PUBLIC_URL + "/blog"
-                                            }
-                                        >
-                                            Blog Post
                                         </Link>
                                     </li>
                                     <li>
@@ -251,16 +242,15 @@ const Footer = () => {
                         <div className="col-12">
                             <div className="copyright-info text-center">
                                 <p>
-                                    Copyright &copy; 2021 Made with{" "}
+                                    Copyright &copy; {year} Made with{" "}
                                     <i className="icofont-heart-alt"></i> By{" "}
                                     <a
-                                        href="https://themeforest.net/user/codecarnival/portfolio"
-                                        target="_blank"
+                                        href="https://github.com/dvsweb"
                                         rel="noreferrer"
                                     >
-                                        codecarnival
+                                        dvsweb
                                     </a>
-                                    , All Rights Reserved
+                                    , All Rights Reserved.
                                 </p>
                             </div>
                         </div>

@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavScrollTop from "./components/nav-scroll-top";
 import HomePage from "./pages/index";
 import AboutPage from "./pages/about";
-import ServicePage from "./pages/service";
+import ServicePage from "./pages/services";
 import ServiceDetails from "./templates/service-details";
 import TeamPage from "./pages/team";
 import FaqPage from "./pages/faq";
@@ -39,7 +39,7 @@ const App = () => {
                         component={AboutPage}
                     />
                     <Route
-                        path={`${process.env.PUBLIC_URL + "/service"}`}
+                        path={`${process.env.PUBLIC_URL + "/services"}`}
                         component={ServicePage}
                     />
                     <Route
@@ -60,10 +60,10 @@ const App = () => {
                         path={`${process.env.PUBLIC_URL + "/contact"}`}
                         component={ContactPage}
                     />
-                    <Route
+                    {/* <Route
                         path={`${process.env.PUBLIC_URL + "/blog"}`}
                         component={BlogPage}
-                    />
+                    /> */}
                     <Route
                         path={`${
                             process.env.PUBLIC_URL + "/blog-left-sidebar"

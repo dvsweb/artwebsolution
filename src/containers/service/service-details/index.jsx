@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import ServiceDetails from "../../../components/service-details";
 import ServiceCate from "../../../components/sidebar/service-cate";
-import ServiceData from "../../../data/service.json";
+import ServiceData from "../../../data/services.json";
 import Brochure from "../../../components/sidebar/brochure";
 
 const ServiceDetailsContainer = ({ data }) => {

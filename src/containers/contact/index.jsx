@@ -1,5 +1,3 @@
-import React from "react";
-
 import ContactForm from "../../components/contact-form";
 import ContactInfo from "../../components/contact-info";
 import ContactData from "../../data/contact.json";
